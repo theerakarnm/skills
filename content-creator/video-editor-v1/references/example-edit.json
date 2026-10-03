@@ -1,0 +1,366 @@
+{
+ "source_video": "/Users/jametirakarn/Desktop/Claude-Cowork/personal_brand/02102026/video.MP4",
+ "edl": "assets/aroll/edl.json",
+ "captions": "assets/captions.json",
+ "audio": "assets/audio/master.wav",
+ "accent": "#F6821F",
+ "accent2": "#FBAD41",
+ "caption_em": "#FFB347",
+ "zoom": {
+  "base": 1.0,
+  "alt": 1.11,
+  "drift": 0.03,
+  "origin_y": "47%"
+ },
+ "bumps": [
+  3.54,
+  14.13,
+  21.5,
+  52.65,
+  133.57
+ ],
+ "caption_top": 1300,
+ "pip": {
+  "size": 240,
+  "scale": 0.222,
+  "center_y": 1040
+ },
+ "broll": [
+  {
+   "id": "b01-ai-writes-code",
+   "start": 4.75,
+   "end": 11.2
+  },
+  {
+   "id": "b02-project-pile",
+   "start": 16.6,
+   "end": 22.1
+  },
+  {
+   "id": "b03-server-sprawl",
+   "start": 22.3,
+   "end": 28.0
+  },
+  {
+   "id": "b04-bug-hunt",
+   "start": 31.0,
+   "end": 38.2
+  },
+  {
+   "id": "b05-token-burn",
+   "start": 46.0,
+   "end": 50.3
+  },
+  {
+   "id": "b06-solution-reveal",
+   "start": 50.4,
+   "end": 56.9
+  },
+  {
+   "id": "b07-cf-skills",
+   "start": 56.9,
+   "end": 59.47
+  },
+  {
+   "id": "b08-agent-reads-logs",
+   "start": 71.6,
+   "end": 80.4
+  },
+  {
+   "id": "b09-environments",
+   "start": 82.2,
+   "end": 89.23
+  },
+  {
+   "id": "b10-cf-stack",
+   "start": 92.3,
+   "end": 102.83
+  },
+  {
+   "id": "b11-skills-agent",
+   "start": 106.9,
+   "end": 113.57
+  },
+  {
+   "id": "b12-agent-ops",
+   "start": 117.9,
+   "end": 124.1
+  },
+  {
+   "id": "b13-code-to-deploy",
+   "start": 124.3,
+   "end": 130.2
+  }
+ ],
+ "overlays": [
+  {
+   "id": "k-hook",
+   "start": 0.0,
+   "end": 4.53,
+   "html": "<div class=\"kcard dark k1a\"><span class=\"em\">⚠️</span> ใช้ AI เขียนโค้ด?</div><div class=\"kcard bad k1b\">ช้าลง <b>x หลายเท่า</b></div>",
+   "events": [
+    [
+     0.05,
+     ".k1a",
+     "pop"
+    ],
+    [
+     3.45,
+     ".k1a",
+     "out"
+    ],
+    [
+     3.5,
+     ".k1b",
+     "slam"
+    ]
+   ]
+  },
+  {
+   "id": "k-problem",
+   "start": 11.3,
+   "end": 16.37,
+   "html": "<div class=\"krow\"><div class=\"kcard dark k2a\"><span class=\"strike\">เขียนโค้ด<i class=\"sl\"></i></span> ❌</div></div><div class=\"krow\"><div class=\"kcard acc k2b\">DEPLOY</div><div class=\"kcard acc2 k2c\">+ MAINTENANCE</div></div>",
+   "events": [
+    [
+     11.35,
+     ".k2a",
+     "pop"
+    ],
+    [
+     12.9,
+     ".strike",
+     "strike"
+    ],
+    [
+     14.1,
+     ".k2b",
+     "slam"
+    ],
+    [
+     15.6,
+     ".k2c",
+     "pop"
+    ]
+   ]
+  },
+  {
+   "id": "k-slow",
+   "start": 28.0,
+   "end": 30.93,
+   "html": "<div class=\"kcard dark k3a\"><span class=\"spin\">⏳</span> ใช้เวลานาน</div>",
+   "events": [
+    [
+     28.05,
+     ".k3a",
+     "pop"
+    ],
+    [
+     30.2,
+     ".k3a",
+     "shake"
+    ],
+    [
+     28.0,
+     ".spin",
+     "spin",
+     2.9
+    ]
+   ]
+  },
+  {
+   "id": "k-logs",
+   "start": 38.2,
+   "end": 41.77,
+   "html": "<div class=\"krow\"><div class=\"kchip k4a\">🔍 Log</div><div class=\"kchip k4b\">🧵 Trace</div><div class=\"kchip bad k4c\">🐞 แก้ Bug</div></div>",
+   "events": [
+    [
+     38.4,
+     ".k4a",
+     "pop"
+    ],
+    [
+     39.27,
+     ".k4b",
+     "pop"
+    ],
+    [
+     40.4,
+     ".k4c",
+     "pop"
+    ]
+   ]
+  },
+  {
+   "id": "k-cred",
+   "start": 41.77,
+   "end": 46.0,
+   "html": "<div class=\"krow\"><div class=\"kchip k5a\">🔑 Credential</div><div class=\"arrow k5b\">→</div><div class=\"kchip acc k5c\">🤖 AI</div></div><div class=\"ksub k5d\">ให้ AI SSH เข้าไป debug เอง</div>",
+   "events": [
+    [
+     43.75,
+     ".k5a",
+     "pop"
+    ],
+    [
+     44.3,
+     ".k5b",
+     "pop"
+    ],
+    [
+     44.55,
+     ".k5c",
+     "pop"
+    ],
+    [
+     45.0,
+     ".k5d",
+     "pop"
+    ]
+   ]
+  },
+  {
+   "id": "k-nocare",
+   "start": 59.47,
+   "end": 66.27,
+   "html": "<div class=\"kcard dark k6a\">ไม่ต้องสนใจ 😌</div><div class=\"krow\"><div class=\"kchip good k6b\">✓ Deployment</div><div class=\"kchip good k6c\">✓ Migration</div><div class=\"kchip good k6d\">✓ Database</div></div>",
+   "events": [
+    [
+     59.5,
+     ".k6a",
+     "pop"
+    ],
+    [
+     63.06,
+     ".k6b",
+     "pop"
+    ],
+    [
+     64.28,
+     ".k6c",
+     "pop"
+    ],
+    [
+     65.4,
+     ".k6d",
+     "pop"
+    ]
+   ]
+  },
+  {
+   "id": "k-aideploy",
+   "start": 66.27,
+   "end": 71.37,
+   "html": "<div class=\"krow\"><div class=\"kchip acc k7a\">🤖 AI</div><div class=\"arrow k7b\">→</div><div class=\"kchip k7c\">🚀 Deploy</div><div class=\"kchip k7d\">🗄️ Migrate</div></div>",
+   "events": [
+    [
+     66.5,
+     ".k7a",
+     "pop"
+    ],
+    [
+     67.6,
+     ".k7b",
+     "pop"
+    ],
+    [
+     67.9,
+     ".k7c",
+     "pop"
+    ],
+    [
+     70.1,
+     ".k7d",
+     "pop"
+    ]
+   ]
+  },
+  {
+   "id": "k-client",
+   "start": 80.4,
+   "end": 81.83,
+   "html": "<div class=\"kcard good k8a\">✅ แจ้งลูกค้าได้ถูกจุด</div>",
+   "events": [
+    [
+     80.45,
+     ".k8a",
+     "pop"
+    ]
+   ]
+  },
+  {
+   "id": "k-service",
+   "start": 89.23,
+   "end": 92.3,
+   "html": "<div class=\"kcard dark k9a\"><img src=\"assets/broll/logos/cloudflare.svg\" class=\"klogo\"/> Cloudflare Infrastructure</div>",
+   "events": [
+    [
+     90.3,
+     ".k9a",
+     "pop"
+    ]
+   ]
+  },
+  {
+   "id": "k-durable",
+   "start": 102.83,
+   "end": 106.67,
+   "html": "<div class=\"kcard dark k10a\"><img src=\"assets/broll/logos/cf-durable-objects-icon-orange.svg\" class=\"klogo\"/> + Durable Objects</div><div class=\"kcard good k10b\">ครบมากๆ ✅</div>",
+   "events": [
+    [
+     104.0,
+     ".k10a",
+     "slam"
+    ],
+    [
+     105.85,
+     ".k10b",
+     "pop"
+    ]
+   ]
+  },
+  {
+   "id": "k-infra",
+   "start": 113.57,
+   "end": 117.73,
+   "html": "<div class=\"kcard dark k11a\">Infrastructure?</div><div class=\"kcard acc k11b\">ไม่ต้องกังวล 😌</div>",
+   "events": [
+    [
+     113.9,
+     ".k11a",
+     "pop"
+    ],
+    [
+     114.5,
+     ".k11b",
+     "slam"
+    ]
+   ]
+  },
+  {
+   "id": "k-cta",
+   "start": 131.4,
+   "end": 134.5,
+   "html": "<div class=\"cta\"><div class=\"cta-q\">คุณใช้ Stack ไหนอยู่? 🤔</div><div class=\"cta-s\">คอมเมนต์บอกกันหน่อย 👇</div></div>",
+   "events": [
+    [
+     131.45,
+     ".cta",
+     "slam"
+    ],
+    [
+     132.6,
+     ".cta-s",
+     "pop"
+    ]
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "sfx": "ding",
+   "t": 131.45,
+   "gain_db": -6
+  }
+ ]
+}

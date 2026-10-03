@@ -1,0 +1,25 @@
+{
+ "skill_name": "thai-talking-head-shorts",
+ "evals": [
+  {
+   "id": 1,
+   "prompt": "ลองตัดต่อ video (video.MP4) ให้หน่อย ใส่ซับไทย kinetic text b-roll และเสียง ให้คนดูอยู่กับคลิปนานที่สุด",
+   "expected_output": "Short intake, transcript + frames, beat sheet gate, retention cut with verification, captions, b-roll workers, Python sound, check + preview before render.",
+   "files": [
+    "~/Desktop/Claude-Cowork/personal_brand/02102026/video.MP4"
+   ]
+  },
+  {
+   "id": 2,
+   "prompt": "ทำคลิปนี้ให้เหมือนคลิป wrangler ที่แล้ว แต่ไม่ต้องตัดอะไรออก แค่ใส่ซับกับเพลง",
+   "expected_output": "Keeps full length (segments cover the whole take), captions + sound pass, skips b-roll unless asked, still previews before render.",
+   "files": []
+  },
+  {
+   "id": 3,
+   "prompt": "at 0:07 the kinetic text covers my face, move it up. at 1:12 captions too fast",
+   "expected_output": "Director-notes loop: snapshot both times before/after, edit edit.json overlays and caption chunks, rebuild, commit vN.",
+   "files": []
+  }
+ ]
+}
